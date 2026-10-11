@@ -1,128 +1,699 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Coffee-Shop-Landingpage/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/Coffee-Shop-Landingpage/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Coffee-Shop-Landingpage/assets/styles-DRvS25Vs.css">
+    <meta name="theme-color" content="#603809" />
+    <meta
+      name="description"
+      content="Discover your next favourite coffee at Bean Scene. Explore our blends, find your perfect cup, and make a little more of your morning."
+    />
+    <title>Bean Scene — A better morning starts with coffee</title>
+    <link rel="icon" type="image/svg+xml" href="/Coffee-Shop-Landingpage/favicon.svg" />
+    <script type="module" crossorigin src="/Coffee-Shop-Landingpage/assets/index-BoOI467v.js"></script>
+    <link rel="stylesheet" crossorigin href="/Coffee-Shop-Landingpage/assets/index-D7c4CXrm.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/Coffee-Shop-Landingpage/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="page-content">
+      <header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="#home" aria-label="Bean Scene home">Bean Scene</a>
+    <nav class="desktop-nav" aria-label="Main navigation">
       <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
+    <div class="header__account">
+      <a
+        class="sign-in"
+        role="link"
+        aria-disabled="true"
+        title="Member accounts are coming soon"
+        >Sign In</a
+      ><a
+        class="button button--small button--placeholder"
+        tabindex="0"
+        role="link"
+        aria-disabled="true"
+        title="Member accounts are coming soon"
+        >Sign Up</a
+      >
+    </div>
+    <button
+      class="icon-button menu-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+    >
+      <svg width="28" height="28" aria-hidden="true">
+        <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/Coffee-Shop-Landingpage/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+      <main id="main">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container hero__inner">
+    <p class="hero__eyebrow">We’ve got your morning covered with</p>
+    <h1 id="hero-title">Coffee</h1>
+    <p class="hero__description">
+      It is best to start your day with a cup of coffee. Discover the best
+      flavours coffee you will ever have. We provide the best for our customers.
+    </p>
+    <button class="button" type="button" data-order>Order Now</button>
   </div>
 </section>
 
-      <article class="badges">
+        <section class="about" id="about" aria-labelledby="about-title">
+  <div class="container about__inner">
+    <div class="about__copy">
+      <h2 id="about-title">Discover the best coffee</h2>
+      <p>
+        Bean Scene is a coffee shop that provides you with quality coffee that
+        helps boost your productivity and helps build your mood. Having a cup of
+        coffee is good, but having a cup of real coffee is greater. There is no
+        doubt that you will enjoy this coffee more than others you have ever
+        tasted.
+      </p>
+      <a class="button" href="#features">Learn More</a>
+    </div>
+    <div class="about__art">
+      <img
+        src="/Coffee-Shop-Landingpage/assets/about-coffee-CX1sV7bd.webp"
+        srcset="/Coffee-Shop-Landingpage/assets/about-coffee-CX1sV7bd.webp 1x, /Coffee-Shop-Landingpage/assets/about-coffee@2x-C5T6XneL.webp 2x"
+        width="680"
+        height="476"
+        alt="Roasted coffee beans arranged in the shape of a cup"
+        loading="lazy"
+      />
+    </div>
+  </div>
+  <img
+    class="decoration about__splash"
+    src="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp"
+    srcset="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp 1x, /Coffee-Shop-Landingpage/assets/coffee-blast@2x-kaQw2HOg.webp 2x"
+    width="498"
+    height="272"
+    alt=""
+    loading="lazy"
+  />
+</section>
+
+        <section class="menu section" id="menu" aria-labelledby="menu-title">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div class="section-heading">
+      <h2 id="menu-title">Enjoy a new blend of coffee style</h2>
+      <p>
+        Explore all flavours of coffee with us. There is always a new cup worth
+        experiencing
+      </p>
+    </div>
+    <ul class="coffee-grid">
+      <li class="coffee-card">
+        <img
+          class="coffee-card__image"
+          src="/Coffee-Shop-Landingpage/assets/cappuccino-DQpLlSsN.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/cappuccino-DQpLlSsN.webp 1x, /Coffee-Shop-Landingpage/assets/cappuccino@2x-D-Sp_mP9.webp 2x"
+          width="280"
+          height="222"
+          alt="Cappuccino with a heart in the milk foam"
+          loading="lazy"
+        />
+        <div class="coffee-card__body">
+          <h3>Cappuccino</h3>
+          <p>Coffee 50% | Milk 50%</p>
+          <p class="coffee-card__price">$8.50</p>
+        </div>
+        <button
+          class="button"
+          type="button"
+          data-order="Cappuccino"
+          aria-label="Order Cappuccino"
         >
-          HTML Inject
-        </a>
+          Order Now
+        </button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
+      <li class="coffee-card">
+        <img
+          class="coffee-card__image"
+          src="/Coffee-Shop-Landingpage/assets/chai-latte-96OVZpdb.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/chai-latte-96OVZpdb.webp 1x, /Coffee-Shop-Landingpage/assets/chai-latte@2x-QGIQff-m.webp 2x"
+          width="280"
+          height="222"
+          alt="Chai latte in a glass mug with creamy foam"
+          loading="lazy"
+        />
+        <div class="coffee-card__body">
+          <h3>Chai Latte</h3>
+          <p>Coffee 50% | Milk 50%</p>
+          <p class="coffee-card__price">$8.50</p>
+        </div>
+        <button
+          class="button"
+          type="button"
+          data-order="Chai Latte"
+          aria-label="Order Chai Latte"
         >
-          Full Reload
-        </a>
+          Order Now
+        </button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
+      <li class="coffee-card">
+        <img
+          class="coffee-card__image"
+          src="/Coffee-Shop-Landingpage/assets/macchiato-DTN_hCFg.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/macchiato-DTN_hCFg.webp 1x, /Coffee-Shop-Landingpage/assets/macchiato@2x-gCrqmeeF.webp 2x"
+          width="280"
+          height="222"
+          alt="Layered macchiato served in a small glass"
+          loading="lazy"
+        />
+        <div class="coffee-card__body">
+          <h3>Macchiato</h3>
+          <p>Coffee 50% | Milk 50%</p>
+          <p class="coffee-card__price">$8.50</p>
+        </div>
+        <button
+          class="button"
+          type="button"
+          data-order="Macchiato"
+          aria-label="Order Macchiato"
         >
-          Sort Media Queries
-        </a>
+          Order Now
+        </button>
+      </li>
+      <li class="coffee-card">
+        <img
+          class="coffee-card__image"
+          src="/Coffee-Shop-Landingpage/assets/espresso-EhGFDGAS.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/espresso-EhGFDGAS.webp 1x, /Coffee-Shop-Landingpage/assets/espresso@2x-Ba4luaP6.webp 2x"
+          width="280"
+          height="222"
+          alt="Espresso in a white cup surrounded by coffee beans"
+          loading="lazy"
+        />
+        <div class="coffee-card__body">
+          <h3>Espresso</h3>
+          <p>Coffee 50% | Milk 50%</p>
+          <p class="coffee-card__price">$8.50</p>
+        </div>
+        <button
+          class="button"
+          type="button"
+          data-order="Espresso"
+          aria-label="Order Espresso"
+        >
+          Order Now
+        </button>
       </li>
     </ul>
   </div>
-</article>
+</section>
 
-    </main>
-
-    <footer class="footer">
+        <section
+  class="features section"
+  id="features"
+  aria-labelledby="features-title"
+>
+  <img
+    class="decoration features__splash"
+    src="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp"
+    srcset="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp 1x, /Coffee-Shop-Landingpage/assets/coffee-blast@2x-kaQw2HOg.webp 2x"
+    width="478"
+    height="261"
+    alt=""
+    loading="lazy"
+  />
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
+    <div class="section-heading">
+      <h2 id="features-title">Why are we different?</h2>
+      <p>We don’t just make your coffee, we make your day!</p>
+    </div>
+    <ul class="feature-grid">
+      <li class="feature-card feature-card--highlight">
+        <img
+          src="/Coffee-Shop-Landingpage/assets/beans-icon-eDIuLGHK.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/beans-icon-eDIuLGHK.webp 1x, /Coffee-Shop-Landingpage/assets/beans-icon@2x-B57raSrY.webp 2x"
+          width="88"
+          height="88"
+          alt=""
+          loading="lazy"
+        />
+        <h3>Supreme Beans</h3>
+        <p>Beans that provide<br />great taste</p>
+      </li>
+      <li class="feature-card">
+        <img
+          src="/Coffee-Shop-Landingpage/assets/quality-icon-DK7B4wun.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/quality-icon-DK7B4wun.webp 1x, /Coffee-Shop-Landingpage/assets/quality-icon@2x-CXQB0KSO.webp 2x"
+          width="88"
+          height="88"
+          alt=""
+          loading="lazy"
+        />
+        <h3>High Quality</h3>
+        <p>We provide the<br />highest quality</p>
+      </li>
+      <li class="feature-card">
+        <img
+          src="/Coffee-Shop-Landingpage/assets/cup-icon-8fiOeyeB.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/cup-icon-8fiOeyeB.webp 1x, /Coffee-Shop-Landingpage/assets/cup-icon@2x-CxjOTHEI.webp 2x"
+          width="88"
+          height="88"
+          alt=""
+          loading="lazy"
+        />
+        <h3>Extraordinary</h3>
+        <p>Coffee like you have<br />never tasted</p>
+      </li>
+      <li class="feature-card">
+        <img
+          src="/Coffee-Shop-Landingpage/assets/price-icon-CRhvIyJp.webp"
+          srcset="/Coffee-Shop-Landingpage/assets/price-icon-CRhvIyJp.webp 1x, /Coffee-Shop-Landingpage/assets/price-icon@2x-Zhond85c.webp 2x"
+          width="88"
+          height="88"
+          alt=""
+          loading="lazy"
+        />
+        <h3>Affordable Price</h3>
+        <p>Our coffee prices are<br />easy to afford</p>
+      </li>
+    </ul>
+    <div class="features__join">
+      <p>Great ideas start with great coffee. Let’s help you achieve that.</p>
+      <h3>Get started today.</h3>
+      <button class="button" type="button" data-order>Join Us</button>
+    </div>
+  </div>
+</section>
+
+        <section class="promotion" aria-labelledby="promotion-title">
+  <div class="container promotion__inner">
+    <div class="promotion__copy">
+      <h2 id="promotion-title">
+        Get a chance to have an<br class="desktop-break" />
+        Amazing morning
+      </h2>
+      <p>
+        We are giving you a one-time opportunity to experience a better life
+        with coffee.
+      </p>
+      <button class="button" type="button" data-order>Order Now</button>
+    </div>
+    <img
+      class="promotion__cup"
+      src="/Coffee-Shop-Landingpage/assets/takeaway-cup-CUo34kdr.webp"
+      srcset="/Coffee-Shop-Landingpage/assets/takeaway-cup-CUo34kdr.webp 1x, /Coffee-Shop-Landingpage/assets/takeaway-cup@2x-Cww6GmSb.webp 2x"
+      width="300"
+      height="467"
+      alt="Bean Scene takeaway coffee with a golden lid"
+      loading="lazy"
+    />
+  </div>
+  <img
+    class="decoration promotion__beans"
+    src="/Coffee-Shop-Landingpage/assets/coffee-beans-DRFDWHS8.webp"
+    srcset="/Coffee-Shop-Landingpage/assets/coffee-beans-DRFDWHS8.webp 1x, /Coffee-Shop-Landingpage/assets/coffee-beans@2x-B2-3dnr_.webp 2x"
+    width="657"
+    height="574"
+    alt=""
+    loading="lazy"
+  />
+</section>
+
+        <section
+  class="testimonials"
+  id="testimonials"
+  aria-labelledby="testimonials-title"
+>
+  <div class="container">
+    <div class="section-heading">
+      <h2 id="testimonials-title">Our coffee perfection feedback</h2>
+      <p>Our customers have amazing things to say about us</p>
+    </div>
+    <div
+      class="review"
+      role="region"
+      aria-roledescription="carousel"
+      aria-label="Demonstration customer reviews"
+    >
+      <span class="review__quote" aria-hidden="true">“</span>
+      <div class="review__content" aria-live="polite" aria-atomic="true">
+        <p class="review__demo">
+          Demonstration review · <span id="review-position">1 of 3</span>
+        </p>
+        <blockquote id="review-text">
+          A good coffee makes you slow down for a moment. The cappuccino at Bean
+          Scene is the kind of cup I would happily build my morning around: rich
+          coffee, soft milk foam, and a little time to enjoy it. Whether it’s a
+          quiet start to the day or a catch-up with a friend, this is the coffee
+          break I look forward to.
+        </blockquote>
+        <p class="review__name">John</p>
+        <p class="review__role">Project Manager</p>
+      </div>
+      <button
+        class="review__arrow review__arrow--previous"
+        type="button"
+        aria-label="Previous review"
       >
-        GoIT team
-      </a>
-    </p>
+        <img src="/Coffee-Shop-Landingpage/assets/arrow-left-DAVsZfRp.svg" alt="" width="24" height="24" /></button
+      ><button
+        class="review__arrow review__arrow--next"
+        type="button"
+        aria-label="Next review"
+      >
+        <img
+          src="/Coffee-Shop-Landingpage/assets/arrow-right-J5OSuLMk.svg"
+          alt=""
+          width="24"
+          height="24"
+        /></button
+      ><img
+        class="review__portrait"
+        src="/Coffee-Shop-Landingpage/assets/john-DTC5JTHp.webp"
+        srcset="/Coffee-Shop-Landingpage/assets/john-DTC5JTHp.webp 1x, /Coffee-Shop-Landingpage/assets/john@2x-Hz15Ht20.webp 2x"
+        width="112"
+        height="112"
+        alt="Portrait of John"
+        loading="lazy"
+      />
+    </div>
+  </div>
+  <img
+    class="decoration testimonials__splash testimonials__splash--top"
+    src="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp"
+    srcset="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp 1x, /Coffee-Shop-Landingpage/assets/coffee-blast@2x-kaQw2HOg.webp 2x"
+    width="498"
+    height="272"
+    alt=""
+    loading="lazy"
+  /><img
+    class="decoration testimonials__splash testimonials__splash--bottom"
+    src="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp"
+    srcset="/Coffee-Shop-Landingpage/assets/coffee-blast-DnYjaG0r.webp 1x, /Coffee-Shop-Landingpage/assets/coffee-blast@2x-kaQw2HOg.webp 2x"
+    width="414"
+    height="226"
+    alt=""
+    loading="lazy"
+  />
+</section>
+
+      </main>
+      <footer class="footer" id="contact">
+  <section
+    class="newsletter"
+    id="newsletter"
+    aria-labelledby="newsletter-title"
+  >
+    <div class="container newsletter__inner">
+      <h2 id="newsletter-title">Subscribe to get the Latest News</h2>
+      <p>Don’t miss out on our latest news, updates, tips and special offers</p>
+      <form
+        class="subscribe-form"
+        id="subscribe-form"
+        aria-describedby="subscribe-note"
+      >
+        <label class="visually-hidden" for="subscriber-email"
+          >Email address</label
+        ><input
+          id="subscriber-email"
+          name="subscriberEmail"
+          type="email"
+          placeholder="Enter your mail"
+          autocomplete="email"
+          maxlength="254"
+          required
+        /><button type="submit">Subscribe</button>
+      </form>
+      <p class="form-note" id="subscribe-note">
+        Demo form — no emails are sent or stored.
+      </p>
+      <p class="form-status" id="subscribe-status" role="status"></p>
+    </div>
+    <img
+      class="decoration newsletter__cup newsletter__cup--left"
+      src="/Coffee-Shop-Landingpage/assets/splash-cup-BPyNqStR.webp"
+      srcset="/Coffee-Shop-Landingpage/assets/splash-cup-BPyNqStR.webp 1x, /Coffee-Shop-Landingpage/assets/splash-cup@2x-xHDHJAKE.webp 2x"
+      width="444"
+      height="358"
+      alt=""
+      loading="lazy"
+    /><img
+      class="decoration newsletter__cup newsletter__cup--right"
+      src="/Coffee-Shop-Landingpage/assets/splash-cup-BPyNqStR.webp"
+      srcset="/Coffee-Shop-Landingpage/assets/splash-cup-BPyNqStR.webp 1x, /Coffee-Shop-Landingpage/assets/splash-cup@2x-xHDHJAKE.webp 2x"
+      width="444"
+      height="358"
+      alt=""
+      loading="lazy"
+    />
+  </section>
+  <div class="footer__bottom">
+    <div class="container footer__columns">
+      <div class="footer__brand">
+        <a class="logo" href="#home" aria-label="Bean Scene home">Bean Scene</a>
+        <p>
+          There’s a little joy in every coffee break. At Bean Scene, we bring
+          together rich flavours, carefully prepared cups, and a warm welcome.
+          Find your favourite blend, take a moment for yourself, and let us make
+          your everyday morning a little more special.
+        </p>
+        <ul class="social-list" aria-label="Social media coming soon">
+          <li>
+            <a
+              role="link"
+              aria-disabled="true"
+              aria-label="facebook — coming soon"
+              ><img
+                src="/Coffee-Shop-Landingpage/assets/facebook-YalJa_o5.svg"
+                width="24"
+                height="24"
+                alt=""
+                loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a
+              role="link"
+              aria-disabled="true"
+              aria-label="instagram — coming soon"
+              ><img
+                src="/Coffee-Shop-Landingpage/assets/instagram-Cx4vlrOY.svg"
+                width="24"
+                height="24"
+                alt=""
+                loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a
+              role="link"
+              aria-disabled="true"
+              aria-label="youtube — coming soon"
+              ><img
+                src="/Coffee-Shop-Landingpage/assets/youtube-0lj5k2jB.svg"
+                width="24"
+                height="24"
+                alt=""
+                loading="lazy"
+            /></a>
+          </li>
+          <li>
+            <a
+              role="link"
+              aria-disabled="true"
+              aria-label="twitter — coming soon"
+              ><img
+                src="/Coffee-Shop-Landingpage/assets/twitter-DSzlUDkS.svg"
+                width="24"
+                height="24"
+                alt=""
+                loading="lazy"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <nav class="footer__links" aria-label="About Bean Scene">
+        <h2>About</h2>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a role="link" aria-disabled="true">News &amp; Blogs</a></li>
+          <li><a role="link" aria-disabled="true">Help &amp; Supports</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__links" aria-label="Company">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#about">How we work</a></li>
+          <li><a role="link" aria-disabled="true">Terms of service</a></li>
+          <li><a href="#menu">Pricing</a></li>
+          <li><a role="link" aria-disabled="true">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h2>Contact Us</h2>
+        <address>
+          <ul>
+            <li>
+              Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+              Bangalore-560016
+            </li>
+            <li><a href="tel:+12029182132">+1 202-918-2132</a></li>
+            <li><a href="mailto:beanscene@mail.com">beanscene@mail.com</a></li>
+            <li><a role="link" aria-disabled="true">www.beanscene.com</a></li>
+          </ul>
+        </address>
+      </div>
+    </div>
   </div>
 </footer>
 
+    </div>
+    <div
+  class="mobile-menu"
+  id="mobile-menu"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="mobile-menu-title"
+  aria-hidden="true"
+  inert
+  tabindex="-1"
+>
+  <div class="mobile-menu__top">
+    <a class="logo" id="mobile-menu-title" href="#home">Bean Scene</a
+    ><button
+      class="icon-button"
+      type="button"
+      data-close-menu
+      aria-label="Close menu"
+    >
+      <svg width="28" height="28" aria-hidden="true">
+        <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#close"></use>
+      </svg>
+    </button>
+  </div>
+  <nav aria-label="Mobile navigation">
+    <ul class="mobile-menu__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="mobile-menu__bottom">
+    <p>A little coffee. A better day.</p>
+    <button class="button" type="button" data-order>Order Now</button>
+    <p class="mobile-menu__account">
+      <a role="link" aria-disabled="true">Sign In</a
+      ><a role="link" aria-disabled="true">Sign Up</a
+      ><span>Member accounts coming soon</span>
+    </p>
+  </div>
+</div>
+<div class="backdrop" id="order-backdrop" aria-hidden="true" inert>
+  <section
+    data-modal-class="panel"
+    id="order-dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="order-title"
+    aria-describedby="order-description"
+    tabindex="-1"
+  >
+    <button
+      class="icon-button"
+      data-modal-class="close"
+      type="button"
+      data-close-order
+      aria-label="Close order form"
+    >
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#close"></use>
+      </svg>
+    </button>
+    <p data-modal-class="eyebrow">Made for your morning</p>
+    <h2 id="order-title">Your next coffee break</h2>
+    <p id="order-description">
+      Choose your cup and leave your details. This is a demo request; nothing is
+      sent or stored.
+    </p>
+    <form id="order-form" data-modal-class="form">
+      <div data-modal-class="field">
+        <label for="customer-name">Your name</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#person"></use></svg
+          ><input
+            id="customer-name"
+            name="customerName"
+            type="text"
+            autocomplete="name"
+            minlength="2"
+            maxlength="80"
+            required
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="customer-email">Email address</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#mail"></use></svg
+          ><input
+            id="customer-email"
+            name="customerEmail"
+            type="email"
+            autocomplete="email"
+            maxlength="254"
+            required
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="customer-phone">Phone (optional)</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="/Coffee-Shop-Landingpage/assets/icons-6vCXJCis.svg#phone"></use></svg
+          ><input
+            id="customer-phone"
+            name="customerPhone"
+            type="tel"
+            autocomplete="tel"
+            maxlength="30"
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="coffee-choice">Your coffee</label
+        ><select id="coffee-choice" name="coffeeChoice">
+          <option>Cappuccino</option>
+          <option>Chai Latte</option>
+          <option>Macchiato</option>
+          <option>Espresso</option>
+        </select>
+      </div>
+      <div data-modal-class="field">
+        <label for="order-notes">Anything else? (optional)</label
+        ><textarea
+          id="order-notes"
+          name="orderNotes"
+          rows="2"
+          maxlength="500"
+          placeholder="Tell us how you like your coffee"
+        ></textarea>
+      </div>
+      <button class="button" type="submit">Preview request</button>
+      <p data-modal-class="status" id="order-status" role="status"></p>
+    </form>
+  </section>
+</div>
 
   </body>
 </html>
