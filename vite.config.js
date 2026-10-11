@@ -40,9 +40,11 @@ export default defineConfig(({ command }) => {
     plugins: [
       injectHTML(),
       FullReload(['./src/**/**.html']),
-      SortCss({
-        sort: 'mobile-first',
-      }),
     ],
+    css: {
+      postcss: {
+        plugins: [SortCss({ sort: 'mobile-first' })],
+      },
+    },
   };
 });
