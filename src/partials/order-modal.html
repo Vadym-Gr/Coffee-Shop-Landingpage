@@ -1,0 +1,97 @@
+<div class="backdrop" id="order-backdrop" aria-hidden="true" inert>
+  <section
+    data-modal-class="panel"
+    id="order-dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="order-title"
+    aria-describedby="order-description"
+    tabindex="-1"
+  >
+    <button
+      class="icon-button"
+      data-modal-class="close"
+      type="button"
+      data-close-order
+      aria-label="Close order form"
+    >
+      <svg width="24" height="24" aria-hidden="true">
+        <use href="./img/icons.svg#close"></use>
+      </svg>
+    </button>
+    <p data-modal-class="eyebrow">Made for your morning</p>
+    <h2 id="order-title">Your next coffee break</h2>
+    <p id="order-description">
+      Choose your cup and leave your details. This is a demo request; nothing is
+      sent or stored.
+    </p>
+    <form id="order-form" data-modal-class="form">
+      <div data-modal-class="field">
+        <label for="customer-name">Your name</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="./img/icons.svg#person"></use></svg
+          ><input
+            id="customer-name"
+            name="customerName"
+            type="text"
+            autocomplete="name"
+            minlength="2"
+            maxlength="80"
+            required
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="customer-email">Email address</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="./img/icons.svg#mail"></use></svg
+          ><input
+            id="customer-email"
+            name="customerEmail"
+            type="email"
+            autocomplete="email"
+            maxlength="254"
+            required
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="customer-phone">Phone (optional)</label>
+        <div data-modal-class="inputWrap">
+          <svg width="20" height="20" aria-hidden="true">
+            <use href="./img/icons.svg#phone"></use></svg
+          ><input
+            id="customer-phone"
+            name="customerPhone"
+            type="tel"
+            autocomplete="tel"
+            maxlength="30"
+          />
+        </div>
+      </div>
+      <div data-modal-class="field">
+        <label for="coffee-choice">Your coffee</label
+        ><select id="coffee-choice" name="coffeeChoice">
+          <option>Cappuccino</option>
+          <option>Chai Latte</option>
+          <option>Macchiato</option>
+          <option>Espresso</option>
+        </select>
+      </div>
+      <div data-modal-class="field">
+        <label for="order-notes">Anything else? (optional)</label
+        ><textarea
+          id="order-notes"
+          name="orderNotes"
+          rows="2"
+          maxlength="500"
+          placeholder="Tell us how you like your coffee"
+        ></textarea>
+      </div>
+      <button class="button" type="submit">Preview request</button>
+      <p data-modal-class="status" id="order-status" role="status"></p>
+    </form>
+  </section>
+</div>

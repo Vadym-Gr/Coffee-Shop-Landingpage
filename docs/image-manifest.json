@@ -1,0 +1,274 @@
+[
+  {
+    "filename": "hero.webp",
+    "sourceWidth": 2048,
+    "sourceHeight": 935,
+    "outputWidth": 1440,
+    "bytes": 95602,
+    "upscaled": false
+  },
+  {
+    "filename": "hero@2x.webp",
+    "sourceWidth": 2048,
+    "sourceHeight": 935,
+    "outputWidth": 2880,
+    "bytes": 213656,
+    "upscaled": true
+  },
+  {
+    "filename": "footer_image.webp",
+    "sourceWidth": 1600,
+    "sourceHeight": 817,
+    "outputWidth": 1440,
+    "bytes": 243636,
+    "upscaled": false
+  },
+  {
+    "filename": "footer_image@2x.webp",
+    "sourceWidth": 1600,
+    "sourceHeight": 817,
+    "outputWidth": 2880,
+    "bytes": 497030,
+    "upscaled": true
+  },
+  {
+    "filename": "coffee-background.webp",
+    "sourceWidth": 2048,
+    "sourceHeight": 1366,
+    "outputWidth": 1440,
+    "bytes": 200912,
+    "upscaled": false
+  },
+  {
+    "filename": "coffee-background@2x.webp",
+    "sourceWidth": 2048,
+    "sourceHeight": 1366,
+    "outputWidth": 2880,
+    "bytes": 428444,
+    "upscaled": true
+  },
+  {
+    "filename": "about-coffee.webp",
+    "sourceWidth": 1000,
+    "sourceHeight": 528,
+    "outputWidth": 680,
+    "bytes": 22772,
+    "upscaled": false
+  },
+  {
+    "filename": "about-coffee@2x.webp",
+    "sourceWidth": 1000,
+    "sourceHeight": 528,
+    "outputWidth": 1360,
+    "bytes": 57012,
+    "upscaled": true
+  },
+  {
+    "filename": "cappuccino.webp",
+    "sourceWidth": 4096,
+    "sourceHeight": 2731,
+    "outputWidth": 360,
+    "bytes": 10296,
+    "upscaled": false
+  },
+  {
+    "filename": "cappuccino@2x.webp",
+    "sourceWidth": 4096,
+    "sourceHeight": 2731,
+    "outputWidth": 720,
+    "bytes": 27248,
+    "upscaled": false
+  },
+  {
+    "filename": "chai-latte.webp",
+    "sourceWidth": 1200,
+    "sourceHeight": 1200,
+    "outputWidth": 360,
+    "bytes": 22442,
+    "upscaled": false
+  },
+  {
+    "filename": "chai-latte@2x.webp",
+    "sourceWidth": 1200,
+    "sourceHeight": 1200,
+    "outputWidth": 720,
+    "bytes": 65654,
+    "upscaled": false
+  },
+  {
+    "filename": "macchiato.webp",
+    "sourceWidth": 2400,
+    "sourceHeight": 1601,
+    "outputWidth": 360,
+    "bytes": 4334,
+    "upscaled": false
+  },
+  {
+    "filename": "macchiato@2x.webp",
+    "sourceWidth": 2400,
+    "sourceHeight": 1601,
+    "outputWidth": 720,
+    "bytes": 11918,
+    "upscaled": false
+  },
+  {
+    "filename": "espresso.webp",
+    "sourceWidth": 800,
+    "sourceHeight": 535,
+    "outputWidth": 360,
+    "bytes": 25686,
+    "upscaled": false
+  },
+  {
+    "filename": "espresso@2x.webp",
+    "sourceWidth": 800,
+    "sourceHeight": 535,
+    "outputWidth": 720,
+    "bytes": 73946,
+    "upscaled": false
+  },
+  {
+    "filename": "beans-icon.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 88,
+    "bytes": 2816,
+    "upscaled": false
+  },
+  {
+    "filename": "beans-icon@2x.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 176,
+    "bytes": 5876,
+    "upscaled": false
+  },
+  {
+    "filename": "quality-icon.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 88,
+    "bytes": 3262,
+    "upscaled": false
+  },
+  {
+    "filename": "quality-icon@2x.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 176,
+    "bytes": 7324,
+    "upscaled": false
+  },
+  {
+    "filename": "cup-icon.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 88,
+    "bytes": 1976,
+    "upscaled": false
+  },
+  {
+    "filename": "cup-icon@2x.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 176,
+    "bytes": 4466,
+    "upscaled": false
+  },
+  {
+    "filename": "price-icon.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 88,
+    "bytes": 2636,
+    "upscaled": false
+  },
+  {
+    "filename": "price-icon@2x.webp",
+    "sourceWidth": 512,
+    "sourceHeight": 512,
+    "outputWidth": 176,
+    "bytes": 6184,
+    "upscaled": false
+  },
+  {
+    "filename": "coffee-blast.webp",
+    "sourceWidth": 1100,
+    "sourceHeight": 600,
+    "outputWidth": 498,
+    "bytes": 24512,
+    "upscaled": false
+  },
+  {
+    "filename": "coffee-blast@2x.webp",
+    "sourceWidth": 1100,
+    "sourceHeight": 600,
+    "outputWidth": 996,
+    "bytes": 58898,
+    "upscaled": false
+  },
+  {
+    "filename": "coffee-beans.webp",
+    "sourceWidth": 3001,
+    "sourceHeight": 2622,
+    "outputWidth": 657,
+    "bytes": 139072,
+    "upscaled": false
+  },
+  {
+    "filename": "coffee-beans@2x.webp",
+    "sourceWidth": 3001,
+    "sourceHeight": 2622,
+    "outputWidth": 1314,
+    "bytes": 403878,
+    "upscaled": false
+  },
+  {
+    "filename": "takeaway-cup.webp",
+    "sourceWidth": 480,
+    "sourceHeight": 746,
+    "outputWidth": 300,
+    "bytes": 15052,
+    "upscaled": false
+  },
+  {
+    "filename": "takeaway-cup@2x.webp",
+    "sourceWidth": 480,
+    "sourceHeight": 746,
+    "outputWidth": 600,
+    "bytes": 24230,
+    "upscaled": true
+  },
+  {
+    "filename": "splash-cup.webp",
+    "sourceWidth": 620,
+    "sourceHeight": 500,
+    "outputWidth": 444,
+    "bytes": 28434,
+    "upscaled": false
+  },
+  {
+    "filename": "splash-cup@2x.webp",
+    "sourceWidth": 620,
+    "sourceHeight": 500,
+    "outputWidth": 888,
+    "bytes": 56114,
+    "upscaled": true
+  },
+  {
+    "filename": "jonny-thomas.webp",
+    "sourceWidth": 200,
+    "sourceHeight": 300,
+    "outputWidth": 112,
+    "bytes": 2688,
+    "upscaled": false
+  },
+  {
+    "filename": "jonny-thomas@2x.webp",
+    "sourceWidth": 200,
+    "sourceHeight": 300,
+    "outputWidth": 224,
+    "bytes": 6094,
+    "upscaled": true
+  }
+]
